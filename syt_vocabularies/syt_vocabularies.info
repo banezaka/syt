@@ -1,0 +1,9 @@
+name = SYT - Vocabularies (defaultconfig)
+description = These vocabularies are imported with default config. They will not be monitored by features.
+core = 7.x
+package = Share your treasures
+dependencies[] = ctools
+dependencies[] = defaultconfig
+dependencies[] = taxonomy
+features[defaultconfig][] = taxonomy_default_vocabularies:tag
+features[features_api][] = api:1
