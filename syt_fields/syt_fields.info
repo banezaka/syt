@@ -1,0 +1,13 @@
+name = SYT - Fields (defaultconfig)
+description = These fields are imported with default config. They will not be monitored by features.
+core = 7.x
+package = SYT
+php = 5.2.4
+dependencies[] = defaultconfig
+dependencies[] = list
+dependencies[] = options
+features[defaultconfig][] = field_default_fields:node-syt_base-field_body
+features[defaultconfig][] = field_default_fields:node-syt_base-field_description
+features[defaultconfig][] = field_default_fields:node-syt_base-field_lead
+features[defaultconfig][] = field_default_fields:node-syt_base-field_status
+features[features_api][] = api:1

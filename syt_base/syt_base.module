@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SYT - Base feature.
+ */
+
+include_once 'syt_base.features.inc';
