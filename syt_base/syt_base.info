@@ -1,7 +1,7 @@
 name = SYT - Base
 description = All SYT fields are exported from this content type. You only need to enable this if you want to create and share new SYT fields.
 core = 7.x
-package = SYT
+package = Share your treasures
 dependencies[] = features
 features[features_api][] = api:1
 features[node][] = syt_base

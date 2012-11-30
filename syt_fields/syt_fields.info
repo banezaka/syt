@@ -1,7 +1,7 @@
 name = SYT - Fields (defaultconfig)
 description = These fields are imported with default config. They will not be monitored by features.
 core = 7.x
-package = SYT
+package = Share your treasures
 php = 5.2.4
 dependencies[] = defaultconfig
 dependencies[] = list
